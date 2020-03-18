@@ -19,16 +19,14 @@ public class MyThread extends Thread{
             System.out.println(e);
         });
 
-        System.out.println("jdsghjdkght");
-        System.out.println("测试Git提交代码");
-        System.out.println("jdsghjdkght");
-        System.out.println("测试Git提交代码");
 
-  System.out.println("测试IDEA下载");
+
+    System.out.println("测试IDEA下载");
+        System.out.println("测试github是否收到");
 
         t.start();
 
-  System.out.println("jdsghjdkght");
+
 
     }
 }
