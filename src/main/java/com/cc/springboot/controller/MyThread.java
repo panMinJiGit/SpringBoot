@@ -21,8 +21,9 @@ public class MyThread extends Thread{
 
 
 
-    System.out.println("测试IDEA下载");
+        System.out.println("测试IDEA下载");
         System.out.println("测试github是否收到");
+        System.out.println("------收到");
 
         t.start();
 
