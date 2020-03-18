@@ -24,8 +24,11 @@ public class MyThread extends Thread{
         System.out.println("jdsghjdkght");
         System.out.println("测试Git提交代码");
 
-
+  System.out.println("测试IDEA下载");
 
         t.start();
+
+  System.out.println("jdsghjdkght");
+
     }
 }
