@@ -20,6 +20,9 @@ public class MyThread extends Thread{
         });
 
         System.out.println("jdsghjdkght");
+        System.out.println("测试Git提交代码");
+
+
 
         t.start();
     }
