@@ -19,6 +19,8 @@ public class MyThread extends Thread{
             System.out.println(e);
         });
 
+        System.out.println("jdsghjdkght");
+
         t.start();
     }
 }
