@@ -1,12 +1,4 @@
-2020-01-17 11:25:42,024 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplication on ZHANG with PID 11684 (F:\java\myWorkspace\springboot\target\classes started by Administrator in F:\java\myWorkspace\springboot)
-2020-01-17 11:25:42,045 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-17 11:25:42,046 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2020-01-17 11:25:45,696 INFO (StartupInfoLogger.java:61)- Started SpringbootApplication in 4.679 seconds (JVM running for 7.317)
-2020-01-17 11:26:47,666 INFO (TestController.java:29)- -----test值离过期时间还有：39秒
-2020-01-17 11:26:47,697 INFO (TestController.java:30)- test:555555555
-2020-01-17 14:24:39,471 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplication on ZHANG with PID 14288 (F:\java\myWorkspace\springboot\target\classes started by Administrator in F:\java\myWorkspace\springboot)
-2020-01-17 14:24:39,475 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
-2020-01-17 14:24:39,475 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
-2020-01-17 14:24:42,128 INFO (StartupInfoLogger.java:61)- Started SpringbootApplication in 3.101 seconds (JVM running for 3.96)
-2020-01-17 14:26:28,884 INFO (TestController.java:29)- -----test值离过期时间还有：57秒
-2020-01-17 14:26:28,909 INFO (TestController.java:30)- test:555555555
+2020-03-18 13:46:15,974 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplication on ZHANG with PID 10912 (F:\java\myWorkspace\springboot\target\classes started by Administrator in F:\java\myWorkspace\springboot)
+2020-03-18 13:46:15,982 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-18 13:46:15,983 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-03-18 13:46:19,318 INFO (StartupInfoLogger.java:61)- Started SpringbootApplication in 4.612 seconds (JVM running for 6.575)
