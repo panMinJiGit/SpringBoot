@@ -1,0 +1,46 @@
+2020-01-15 12:03:12,702 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplicationTests on ZHANG with PID 5688 (started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-15 12:03:12,711 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-15 12:03:12,711 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-15 12:03:15,566 INFO (StartupInfoLogger.java:61)- Started SpringbootApplicationTests in 3.5 seconds (JVM running for 5.615)
+2020-01-15 12:16:55,595 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplicationTests on ZHANG with PID 11132 (started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-15 12:16:55,596 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-15 12:16:55,597 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-15 12:16:57,667 INFO (StartupInfoLogger.java:61)- Started SpringbootApplicationTests in 2.512 seconds (JVM running for 3.689)
+2020-01-15 12:17:35,867 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplicationTests on ZHANG with PID 8916 (started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-15 12:17:35,868 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-15 12:17:35,869 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-15 12:17:37,807 INFO (StartupInfoLogger.java:61)- Started SpringbootApplicationTests in 2.363 seconds (JVM running for 3.601)
+2020-01-15 12:18:01,024 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplicationTests on ZHANG with PID 11996 (started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-15 12:18:01,025 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-15 12:18:01,025 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-15 12:18:02,927 INFO (StartupInfoLogger.java:61)- Started SpringbootApplicationTests in 2.344 seconds (JVM running for 3.544)
+2020-01-15 12:18:24,619 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplication on ZHANG with PID 9692 (F:\java\myWorkspace\springboot\target\classes started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-15 12:18:24,621 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-15 12:18:24,622 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-15 12:18:27,599 INFO (StartupInfoLogger.java:61)- Started SpringbootApplication in 3.359 seconds (JVM running for 4.484)
+2020-01-15 12:20:25,986 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplication on ZHANG with PID 12212 (F:\java\myWorkspace\springboot\target\classes started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-15 12:20:25,989 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-15 12:20:25,990 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-15 12:20:28,778 INFO (StartupInfoLogger.java:61)- Started SpringbootApplication in 3.274 seconds (JVM running for 4.139)
+2020-01-15 12:23:37,845 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplication on ZHANG with PID 5716 (F:\java\myWorkspace\springboot\target\classes started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-15 12:23:37,848 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-15 12:23:37,849 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-15 12:23:40,524 INFO (StartupInfoLogger.java:61)- Started SpringbootApplication in 3.109 seconds (JVM running for 3.963)
+2020-01-15 12:23:59,887 INFO (TestController.java:29)- -----test值离过期时间还有：47秒
+2020-01-15 12:23:59,911 INFO (TestController.java:30)- test:555555555
+2020-01-15 12:26:16,829 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplication on ZHANG with PID 10596 (F:\java\myWorkspace\springboot\target\classes started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-15 12:26:16,832 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-15 12:26:16,833 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-15 12:26:19,515 INFO (StartupInfoLogger.java:61)- Started SpringbootApplication in 3.171 seconds (JVM running for 4.025)
+2020-01-15 12:26:59,551 INFO (TestController.java:29)- -----test值离过期时间还有：55秒
+2020-01-15 12:26:59,581 INFO (TestController.java:30)- test:555555555
+2020-01-15 12:27:06,096 INFO (TestController.java:29)- -----test值离过期时间还有：48秒
+2020-01-15 12:27:06,097 INFO (TestController.java:30)- test:555555555
+2020-01-15 12:27:06,269 INFO (TestController.java:29)- -----test值离过期时间还有：48秒
+2020-01-15 12:27:06,270 INFO (TestController.java:30)- test:555555555
+2020-01-15 12:27:06,435 INFO (TestController.java:29)- -----test值离过期时间还有：48秒
+2020-01-15 12:27:06,435 INFO (TestController.java:30)- test:555555555
+2020-01-15 12:27:06,618 INFO (TestController.java:29)- -----test值离过期时间还有：48秒
+2020-01-15 12:27:06,618 INFO (TestController.java:30)- test:555555555
+2020-01-15 12:27:06,784 INFO (TestController.java:29)- -----test值离过期时间还有：47秒
+2020-01-15 12:27:06,785 INFO (TestController.java:30)- test:555555555

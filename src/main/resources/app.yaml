@@ -1,0 +1,1433 @@
+
+#此文件格式要求非常严格，请勿乱修改任何地方！！！
+
+#resuleType --> true:查询类型代表含有参数
+#               false:设置类型不含参数
+#               必填字段
+#--------------------------------------------
+
+#writtenLog --> true:需要保持日志
+#               false:不需要保持日志
+#               必填字段
+#--------------------------------------------
+
+#logContents --> 日志内容
+#--------------------------------------------
+
+#logType --> 日志类型（1~10种类型）
+#--------------------------------------------
+
+#logValue --> 日志是否追加值(#{50}分、#{20}秒)
+
+#unitType --> 日志带参数(？ + 秒、？ + 分、...)
+#--------------------------------------------
+
+#logUnit --> 日志单位（V、℃、次、秒、分...）
+#--------------------------------------------
+
+#resulefield --> 返回字段名称
+#                必填字段
+#--------------------------------------------
+
+#resuleData --> 返回值
+#--------------------------------------------
+
+#设置解除警报成功返回
+JCBJT:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  logValue:
+  unitType:
+  logUnit:
+  resulefield: JCBJT
+  resuleData: true
+
+#设置解除警报失败返回
+JCBJF:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  logValue:
+  unitType:
+  logUnit:
+  resulefield: JCBJF
+  resuleData: false
+
+#重启设备返回结果
+CQSBT:
+  resuleType: false
+  writtenLog: true
+  logContents: 设备重启成功
+  logType: 10
+  unitType:
+  logValue: false
+  logUnit:
+  resulefield: CQSBT
+  resuleData: true
+
+#恢复出厂返回结果
+HFCCSZT:
+  resuleType: false
+  writtenLog: true
+  logContents: 设备恢复出厂成功
+  logType: 10
+  unitType:
+  logValue: false
+  logUnit:
+  resulefield: HFCCSZT
+  resuleData: true
+
+#报警时振动
+WXVN:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: WXVN
+  resuleData: true
+
+#报警器正常
+DEVICE_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: DEVICE
+  resuleData: A0
+
+#布防
+ds:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: deploy
+  resuleData: true
+
+#撤防
+ws:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: deploy
+  resuleData: false
+
+#布防成功
+dt:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: deployback
+  resuleData: true
+
+#布防成功
+df:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: deployback
+  resuleData: false
+
+#撤防成功
+wt:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: withdrawalback
+  resuleData: true
+
+#撤防失败
+wf:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: withdrawalback
+  resuleData: false
+
+#控制盒震动传感器正常
+KZHZD_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: KZHZD
+  resuleData: A0
+
+
+#控制盒震动传感器异常
+KZHZD_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: KZHZD
+  resuleData: A1
+
+#车辆行驶
+CLZT_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: CLZT
+  resuleData: A0
+
+#车辆停车
+CLZT_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: CLZT
+  resuleData: A1
+
+#电源状态正常
+DYZT_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: DYZT
+  resuleData: A0
+
+#电源状态异常
+DYZT_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: DYZT
+  resuleData: A1
+
+#油箱1 人体感应传感器正常
+RT1_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT1
+  resuleData: A0
+
+#油箱1 人体感应传感器异常
+RT1_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT1
+  resuleData: A1
+
+#油箱1 人体感应传感器剪线异常
+RT1_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT1
+  resuleData: A2
+
+#油箱1振动传感器正常
+YXZD1_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD1
+  resuleData: A0
+
+#油箱1振动传感器异常
+YXZD1_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD1
+  resuleData: A1
+  
+#油箱1振动传感器剪线异常
+YXZD1_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD1
+  resuleData: A2
+  
+#油箱1微波振动传感器正常
+YXZD2_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD2
+  resuleData: A0
+
+#油箱1微波振动传感器正常
+YXZD2_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD2
+  resuleData: A1
+
+#微波振动剪线异常
+YXZD2_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD2
+  resuleData: A2
+
+#油箱1接触传感器正常
+YXCM1_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM1
+  resuleData: A0
+
+#油箱接触传感器异常
+YXCM1_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM1
+  resuleData: A1
+
+#接触传感器剪线异常
+YXCM1_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM1
+  resuleData: A2
+
+#油箱2 人体感应传感器正常
+RT2_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT2
+  resuleData: A0
+
+#油箱2 人体感应传感器异常
+RT2_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT2
+  resuleData: A1
+
+#油箱2 人体感应传感器剪线异常
+RT2_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT2
+  resuleData: A2
+
+#油箱2振动传感器正常
+YXZD3_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD3
+  resuleData: A0
+
+#油箱2振动传感器异常
+YXZD3_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD3
+  resuleData: A1
+
+#油箱2振动传感器剪线异常
+YXZD3_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD3
+  resuleData: A2
+
+#油箱2微波振动传感器正常
+YXZD4_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD4
+  resuleData: A0
+
+#油箱2微波振动传感器异常
+YXZD4_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD4
+  resuleData: A1
+
+#油箱2微波振动剪线异常
+YXZD4_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD4
+  resuleData: A2
+
+#油箱2接触传感器正常
+YXCM2_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM2
+  resuleData: A0
+
+#油箱2接触传感器异常
+YXCM2_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM2
+  resuleData: A1
+
+#油箱2接触传感器剪线异常
+YXCM2_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM2
+  resuleData: A2
+
+#油箱3 人体感应传感器正常
+RT3_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT3
+  resuleData: A0
+
+#油箱3 人体感应传感器异常
+RT3_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT3
+  resuleData: A1
+
+#油箱3 人体感应传感器剪线异常
+RT3_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT3
+  resuleData: A2
+
+#油箱3振动传感器正常
+YXZD5_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD5
+  resuleData: A0
+
+#油箱3振动传感器异常
+YXZD5_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD5
+  resuleData: A1
+
+#油箱3振动传感器剪线异常
+YXZD5_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD5
+  resuleData: A2
+
+#油箱3微波振动传感器正常
+YXZD6_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD6
+  resuleData: A0
+
+#油箱3微波振动传感器异常
+YXZD6_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD6
+  resuleData: A1
+
+#油箱3微波振动剪线异常
+YXZD6_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD6
+  resuleData: A2
+
+#油箱3接触传感器正常
+YXCM3_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM3
+  resuleData: A0
+
+#油箱3 接触传感器异常
+YXCM3_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM3
+  resuleData: A1
+
+#油箱3 接触传感器剪线异常
+YXCM3_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM3
+  resuleData: A2
+
+#油箱4 人体感应传感器正常
+RT4_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT4
+  resuleData: A0
+
+#油箱4 人体感应传感器异常
+RT4_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT4
+  resuleData: A1
+
+#油箱4 人体感应传感器剪线异常
+RT4_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: RT4
+  resuleData: A2
+
+#油箱4振动传感器正常
+YXZD7_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD7
+  resuleData: A0
+
+#油油箱4振动传感器异常
+YXZD7_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD7
+  resuleData: A1
+
+#油箱4振动传感器剪线异常
+YXZD7_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD7
+  resuleData: A2
+
+#油箱4微波振动传感器正常
+YXZD8_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD8
+  resuleData: A0
+
+#油箱4微波振动传感器异常
+YXZD8_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD8
+  resuleData: A1
+
+#油箱4微波振动剪线异常
+YXZD8_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXZD8
+  resuleData: A2
+
+#油箱4接触传感器正常
+YXCM4_A0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM4
+  resuleData: A0
+
+#油箱4接触传感器异常
+YXCM4_A1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM4
+  resuleData: A1
+
+#油箱4接触传感器剪线异常
+YXCM4_A2:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: YXCM4
+  resuleData: A2
+
+#振动灵敏度调节控制返回(失败)
+CBF:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: csetting
+  resuleData: false
+
+#1#油箱
+TAF:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: tsettinga
+  resuleData: false
+
+#2#油箱
+TBF:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: tsettingb
+  resuleData: false
+
+#3#油箱
+TCF:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: tsettingc
+  resuleData: false
+
+#4#油箱
+TDF:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: tsettingd
+  resuleData: false
+
+#电瓶亏损阈值设置失败
+DPYZF:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: dpyz
+  resuleData: false
+
+#汽车启动电压阈值设置失败
+QCQDF:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: qcqd
+  resuleData: false
+
+#电瓶电压过高阀值设置失败
+BTHF:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: bth
+  resuleData: false
+
+#主机保护开关关
+kzhs0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: kzhs
+  resuleData: 0
+
+#主机保护开关开
+kzhs1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: kzhs
+  resuleData: 1
+
+#触摸检测开关关
+touchs0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: touchs
+  resuleData: 0
+
+#触摸检测开关开
+touchs1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: touchs
+  resuleData: 1
+
+#短信报警开关关
+msgs0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: msgs
+  resuleData: 0
+
+#短信报警开关开
+msgs1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: msgs
+  resuleData: 1
+
+#电话报警开关关
+calls0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: calls
+  resuleData: 0
+
+#电话报警开关开
+calls1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: calls
+  resuleData: 1
+
+#自动布防开关关
+adefs0:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: adefs
+  resuleData: 0
+
+#自动布防开关开
+adefs1:
+  resuleType: false
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: adefs
+  resuleData: 1
+
+#****************************************************************************************************************************************
+
+#电瓶种类查询返回值
+bat:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: bat
+  resuleData:
+
+#当前信号值
+csq:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: csq
+  resuleData:
+
+#当前信号值
+madef:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: madef
+  resuleData:
+
+#设置自动布防计时返回
+MADEFT:
+  resuleType: false
+  writtenLog: true
+  logContents: 自动布防时间更改为
+  logType: 6
+  unitType: true
+  logValue: true
+  logUnit: 分
+  resulefield: madef
+  resuleData: true
+
+#获取报警次数
+maen:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: maen
+  resuleData:
+
+#设置自动布防计时返回
+MAENT:
+  resuleType: false
+  writtenLog: true
+  logContents: 报警次数更改为
+  logType: 6
+  unitType: true
+  logValue: true
+  logUnit: 次
+  resulefield: MAENT
+  resuleData: true
+
+#获取报警音量调节
+mmscv:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: mmscv
+  resuleData:
+
+#获取报警音量调节
+mup:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: mup
+  resuleData:
+
+#修改绑定手机返回
+MUPT:
+  resuleType: false
+  writtenLog: true
+  logContents: 设备绑定号码更改为
+  logType: 4
+  unitType: false
+  logValue: true
+  logUnit:
+  resulefield: MUPT
+  resuleData: true
+
+#电瓶亏损报警值查询返回
+lmd:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: lmd
+  resuleData:
+
+#汽车启动电压值查询返回
+cfg:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: cfg
+  resuleData:
+
+#电瓶电压过高阀值查询返回
+bth:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: bth
+  resuleData:
+
+#电瓶正常状态
+DPZC:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: DPZC
+  resuleData:
+
+#电瓶亏损
+DPKS:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: DPKS
+  resuleData:
+
+#电瓶电压过高
+DYGG:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: DYGG
+  resuleData:
+
+#振动灵敏度调节现状查询返回
+cb:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: cb
+  resuleData:
+
+#油箱1
+ta:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: ta
+  resuleData:
+
+#油箱2
+tb:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: tb
+  resuleData:
+
+#油箱3
+tc:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: tc
+  resuleData:
+
+#油箱4
+td:
+  resuleType: true
+  writtenLog: false
+  logContents:
+  logType:
+  unitType:
+  logValue:
+  logUnit:
+  resulefield: td
+  resuleData:
+
+#振动灵敏度调节控制返回(成功)
+CBT:
+  resuleType: false
+  writtenLog: true
+  logContents: 控制盒振动灵敏度更改为
+  logType: 6
+  unitType: false
+  logValue: true
+  logUnit:
+  resulefield: csetting
+  resuleData: true
+
+#1#油箱
+TAT:
+  resuleType: false
+  writtenLog: true
+  logContents: 1#油箱振动灵敏度更改为
+  logType: 6
+  unitType: false
+  logValue: true
+  logUnit:
+  resulefield: tsettinga
+  resuleData: true
+
+#2#油箱
+TBT:
+  resuleType: false
+  writtenLog: true
+  logContents: 2#油箱振动灵敏度更改为
+  logType: 6
+  unitType: false
+  logValue: true
+  logUnit:
+  resulefield: tsettingb
+  resuleData: true
+
+#3#油箱
+TCT:
+  resuleType: false
+  writtenLog: true
+  logContents: 3#油箱振动灵敏度更改为
+  logType: 6
+  unitType: false
+  logValue: true
+  logUnit:
+  resulefield: tsettingc
+  resuleData: true
+
+#4#油箱
+TDT:
+  resuleType: false
+  writtenLog: true
+  logContents: 4#油箱振动灵敏度更改为
+  logType: 6
+  unitType: false
+  logValue: true
+  logUnit:
+  resulefield: tsettingd
+  resuleData: true
+
+
+#电瓶亏损阈值设置成功
+DPYZT:
+  resuleType: false
+  writtenLog: true
+  logContents: 电瓶亏损阈值更改为
+  logType: 6
+  unitType: true
+  logValue: true
+  logUnit: V
+  resulefield: dpyz
+  resuleData: true
+
+#汽车启动电压阈值设置成功
+QCQDT:
+  resuleType: false
+  writtenLog: true
+  logContents: 汽车启动电压阈值更改为
+  logType: 6
+  unitType: true
+  logValue: true
+  logUnit: V
+  resulefield: qcqd
+  resuleData: true
+
+#电瓶电压过高阀值设置成功
+BTHT:
+  resuleType: false
+  writtenLog: true
+  logContents: 电瓶电压过高阀值更改为
+  logType: 6
+  unitType: true
+  logValue: true
+  logUnit: V
+  resulefield: bth
+  resuleData: true
+
+#电瓶电压采集精度设置成功
+CALADJT:
+  resuleType: false
+  writtenLog: true
+  logContents: 电瓶电压校准值更改为
+  logType: 6
+  unitType: true
+  logValue: true
+  logUnit: V
+  resulefield: caladj
+  resuleData: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

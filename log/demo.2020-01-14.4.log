@@ -1,0 +1,19 @@
+2020-01-14 17:45:29,781 INFO (TestController.java:30)- test:null
+2020-01-14 17:57:22,568 INFO (TestController.java:29)- -----test值离过期时间还有：56秒
+2020-01-14 17:57:22,570 INFO (TestController.java:30)- test:555555555
+2020-01-14 17:57:28,243 INFO (TestController.java:29)- -----test值离过期时间还有：50秒
+2020-01-14 17:57:28,244 INFO (TestController.java:30)- test:555555555
+2020-01-14 17:57:28,613 INFO (TestController.java:29)- -----test值离过期时间还有：50秒
+2020-01-14 17:57:28,614 INFO (TestController.java:30)- test:555555555
+2020-01-14 17:57:28,942 INFO (TestController.java:29)- -----test值离过期时间还有：50秒
+2020-01-14 17:57:28,943 INFO (TestController.java:30)- test:555555555
+2020-01-14 17:57:29,143 INFO (TestController.java:29)- -----test值离过期时间还有：49秒
+2020-01-14 17:57:29,143 INFO (TestController.java:30)- test:555555555
+2020-01-14 18:00:44,573 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplicationTests on ZHANG with PID 14548 (started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-14 18:00:44,574 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-14 18:00:44,575 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-14 18:00:46,632 INFO (StartupInfoLogger.java:61)- Started SpringbootApplicationTests in 2.489 seconds (JVM running for 3.497)
+2020-01-14 18:01:04,669 INFO (StartupInfoLogger.java:55)- Starting SpringbootApplicationTests on ZHANG with PID 9208 (started by Administrator in F:\java\myWorkspace\springboot)
+2020-01-14 18:01:04,670 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-14 18:01:04,671 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-01-14 18:01:06,621 INFO (StartupInfoLogger.java:61)- Started SpringbootApplicationTests in 2.459 seconds (JVM running for 3.631)
