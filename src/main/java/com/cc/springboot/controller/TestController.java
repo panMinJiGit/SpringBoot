@@ -35,10 +35,10 @@ public class TestController {
     @RequestMapping("/info")
     public String infoPrint(){
         //日志级别由高到低是：fatal -> error -> warn -> info -> debug,低级别的会输出高级别的信息，高级别的不会输出低级别的
-       /* logger.info("-------------------正常业务处理日志打印...");
+        logger.info("-------------------正常业务处理日志打印...");
         logger.error("------------------错误业务处理日志打印...");
         logger.debug("------------------业务遇到BUG级别日志打印..");
-        logger.warn("-------------------这是什么日志wht?");*/
+        logger.warn("-------------------这是什么日志wht?");
 
         redisUtils.set("test","555555555",60);
 
