@@ -28,7 +28,7 @@ public class TestController {
     public String index(){
         logger.info("-----test值离过期时间还有："+ redisUtils.getExpire("test") + "秒");
         logger.info("test:"+redisUtils.get("test"));
-
+        logger.info("-----------------启动热部署....");
         return "hello word !";
     }
 
