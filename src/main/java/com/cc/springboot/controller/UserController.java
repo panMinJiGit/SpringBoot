@@ -20,6 +20,9 @@ public class UserController {
     @Autowired
     private UserMapper userMapper;
 
+   /* @Autowired
+    StringEncryptor encryptor;*/
+
     @RequestMapping("/list")
     @ResponseBody
     List<UserEntity> listAll(){
@@ -27,6 +30,19 @@ public class UserController {
         List<UserEntity> userList = this.userMapper.selectAll();
 
         return  userList;
+
+    }
+
+    @RequestMapping("/encrypt")
+    public void encrypt(){
+
+        /*System.out.println("-----------------encrypt -> ResultData....");
+        String url = encryptor.encrypt("jdbc:mysql://47.105.200.6:3306/bolodan_cc?useUnicode=true&characterEncoding=utf8");
+        String username = encryptor.decrypt("admin");
+        String password = encryptor.decrypt("admin123");
+        System.out.println(url);
+        System.out.println(username);
+        System.out.println(password);*/
 
     }
 

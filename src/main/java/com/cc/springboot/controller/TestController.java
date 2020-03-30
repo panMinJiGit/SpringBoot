@@ -24,7 +24,7 @@ public class TestController {
     private final static Logger logger = LoggerFactory.getLogger(TestController.class);
 
 
-    @RequestMapping("/index")
+    @RequestMapping("/indexx")
     public String index(){
         logger.info("-----test值离过期时间还有："+ redisUtils.getExpire("test") + "秒");
         logger.info("test:"+redisUtils.get("test"));

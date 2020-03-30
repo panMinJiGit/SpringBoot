@@ -17,9 +17,14 @@ class SpringbootApplicationTests {
     @Test
     void contextLoads() {
         System.out.println("-------@Test");
-        List<UserEntity> list = userMapper.selectAll();
+
+
+       List<UserEntity> list = userMapper.selectAll();
         System.out.println(list);
         list.forEach(s -> System.out.println(s.getDeviceImei() + " VS " + s.getDeviceName()));
+
+
+
     }
 
 }
